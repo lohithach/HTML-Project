@@ -1,0 +1,54 @@
+ul{
+    list-style : none;
+    background-color: black;
+    overflow: hidden; 
+}
+li{
+/*    text-align: left; */
+    float: left;
+}
+li a{
+    display: block; 
+    color: white;
+    text-align: center;
+    padding-left: 16px;
+    padding-top:8px;
+    padding-bottom:8px;
+    text-decoration: none;
+}
+p{
+    padding-left: 50px;
+    font-size: 18pt;
+}
+
+form input{
+    /*    width : 200px;
+        height : 20px;*/
+        background-color : #ECF5F4;
+        border-radius : 4px;
+        
+    } 
+
+    .buttoncls{
+     /*   width : 200px;
+        height : 30px;*/
+        background:#96DEDA;
+        color: white;
+        border-radius : 4px;
+
+    }
+   
+    form {
+        width : 700px;
+        height : 300px;
+        border : 2px solid black;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        align-items: center; 
+       justify-content: center;
+    /*   background-image: url("image1.jpg")*/
+
+    
+    }
+
