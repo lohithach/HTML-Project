@@ -8,11 +8,26 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+<div>
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
         <li><a href="./contact.html">Contact</a></li>
     </ul>
-    <p>Contact</p>
+    <form>
+        <b> Get Started</b>
+     <input type="email" placeholder="Email Address">
+     <input type="password" placeholder="Password">
+     <button class="buttonClass" onclick={login()}>Sign in</button>
+    </form>
+    <footer>
+        <a href="https://github.com/lohithach"> <img src="./Assets/Github.svg.svg"></a>
+    </footer>
+</div>
+    <script>
+        function login() {
+            window.alert("login success");
+        }
+    </script>
 </body>
 </html>
